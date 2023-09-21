@@ -1,7 +1,7 @@
 const Offer = () => {
   return (
     <section className='section' id="offer">
-       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+       <div className="px-4 mx-auto max-w-screen-xl py-20 lg:px-6">
       <div className="w-auto my-24 lg:mb-16 text-center items-center justify-center">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Oferta</h2>
           <p className="text-gray-500 text-[30px] dark:text-gray-400">W czym możemy ci pomóc?</p>
