@@ -17,12 +17,12 @@ const Hero = () => {
     <section className='section' id="home">
 	<div className='container mx-auto mt-16'>
 		<div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
-			<div className='flex-1 text-center font-secondary lg:text-left'>
+			<div className='flex-1 text-center lg:text-left'>
 				<motion.h1  initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}  className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'> WOLSOFT </motion.h1>
 				<motion.div initial={{ y: 50, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}  className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-1'>
-					<TypeAnimation sequence={[ 'Obsługa informatyczna' , 2000, 'Oprogramowanie' , 2000, 'Sieci komputerowe' , 2000, 'Witryny internetowe' , 2000 ]} speed={50} className='text-teal-500 mr-4 md:text-[12px]' wrapper='span' repeat={Infinity} />
+            animate={{ y: 0, opacity: 1 }}  className='mb-6 lg:text-[60px] sm:text-[24px] font-semibold uppercase leading-1'>
+					<TypeAnimation sequence={[ 'Obsługa informatyczna' , 2000, 'Oprogramowanie' , 2000, 'Sieci komputerowe' , 2000, 'Witryny internetowe' , 2000 ]} speed={50} className='text-teal-500 mr-4' wrapper='span' repeat={Infinity} />
 				</motion.div>
 				<div>
 					<motion.p initial={{ y: 50, opacity: 0 }}
