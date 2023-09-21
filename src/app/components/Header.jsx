@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
-import { Bars3Icon, PhoneXMarkIcon } from "@heroicons/react/24/solid";
+import { Bars3Icon, XCircleIcon } from "@heroicons/react/24/solid";
 
 import Image from 'next/image';
 import logo from '../components/assets/logo.png';
@@ -33,7 +33,7 @@ const Header = () => {
                         !headerOpen ? (
                             <button onClick={() => setHeaderOpen(true)} className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"><Bars3Icon className="h-5 w-5" /></button>
                         ) : (
-                            <button onClick={() => setHeaderOpen(false)} className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"><PhoneXMarkIcon className="h-5 w-5" /></button>
+                            <button onClick={() => setHeaderOpen(false)} className="flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white"><XCircleIcon className="h-5 w-5" /></button>
                         )
                     }
                 </div>
