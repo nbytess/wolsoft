@@ -16,6 +16,10 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "DejaVu Sans";
   color: rgb(var(--foreground-rgb));

@@ -9,6 +9,7 @@ import { motion } from 'framer-motion';
 
 import Image from 'next/image';
 import heroBanner from '../components/assets/hero.svg';
+import Link from 'next/link';
 
 
 const Hero = () => {
@@ -28,7 +29,9 @@ const Hero = () => {
             animate={{ y: 0, opacity: 1 }} className='mb-8 max-w-lg mx-auto lg:mx-0 text-[18px] lg:text[30px]'> Rozumiemy język technologii, a naszą misją jest przekształcanie Twoich pomysłów w innowacyjne rozwiązania cyfrowe. </motion.p>
 					<motion.div initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}>
-						<button type="button" className="text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Zobacz więcej</button>
+						<Link href={'#offer'}>
+							<div><button onClick={() => {}} type="button" className="text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-800 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Klikni, aby sprawdzić ofertę</button></div>
+					</Link>
 					</motion.div>
 				</div>
 			</div>
