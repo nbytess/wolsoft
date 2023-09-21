@@ -22,7 +22,7 @@ const Hero = () => {
             animate={{ y: 0, opacity: 1 }}  className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'> WOLSOFT </motion.h1>
 				<motion.div initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}  className='mb-6 text-[36px] lg:text-[60px] font-secondary font-semibold uppercase leading-1'>
-					<TypeAnimation sequence={[ 'Obsługa informatyczna' , 2000, 'Oprogramowanie' , 2000, 'Sieci komputerowe' , 2000, 'Witryny internetowe' , 2000 ]} speed={50} className='text-teal-500 mr-4' wrapper='span' repeat={Infinity} />
+					<TypeAnimation sequence={[ 'Obsługa informatyczna' , 2000, 'Oprogramowanie' , 2000, 'Sieci komputerowe' , 2000, 'Witryny internetowe' , 2000 ]} speed={50} className='text-teal-500 mr-4 md:text-[12px]' wrapper='span' repeat={Infinity} />
 				</motion.div>
 				<div>
 					<motion.p initial={{ y: 50, opacity: 0 }}
